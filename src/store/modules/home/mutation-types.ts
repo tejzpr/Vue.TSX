@@ -1,0 +1,1 @@
+export const CHANGE_HOME_TEXTS = 'CHANGE_HOME_TEXTS';

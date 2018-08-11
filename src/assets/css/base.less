@@ -1,0 +1,141 @@
+@import "responsive.less";
+
+@grey: #7F7F7F;
+@white: #ffffff;
+@body-grey: #e8ebf1;
+@container-grey: #e8ebf1;
+@LtGray3: #dfdfdf;
+@DkGray2: #58585b;
+@MedGray2: #9e9ea2;
+
+.huge{
+  font-family: "Arial", sans-serif;
+  font-size: 640%;
+  @media @xs {
+    font-size: 540%;
+  }
+  @media @sm {
+    font-size: 600%;
+  }
+  color: #000000;
+  font-weight: 600;
+}
+
+.headline{
+  font-family: "Arial", sans-serif;
+  font-size: 240%;
+  @media @xs {
+    font-size: 140%;
+  }
+  @media @sm {
+    font-size: 200%;
+  }
+  color: #000000;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.subhead-a{
+  font-family: "Arial", sans-serif;
+  font-size: 165%;
+  @media @xs {
+    font-size: 100%;
+  }
+  @media @sm {
+    font-size: 125%;
+  }
+  color: #000000;
+  font-style: normal;
+  font-weight: 100;
+}
+
+.subhead-b{
+  font-family: "Arial", sans-serif;
+  font-size: 130%;
+  @media @xs {
+    font-size: 100%;
+  }
+  @media @sm {
+    font-size: 100%;
+  }
+  color: #000000;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.label{
+  font-family: "Arial", sans-serif;
+  font-size: 100%;
+  @media @xs {
+    font-size: 90%;
+  }
+  @media @sm {
+    font-size: 90%;
+  }
+  color: #000000;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.text{
+  font-family: "Arial", sans-serif;
+  font-size: 100%;
+  @media @xs {
+    font-size: 90%;
+  }
+  @media @sm {
+    font-size: 90%;
+  }
+  color: #000000;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.button-text{
+  font-family: "Arial", sans-serif;
+  font-size: 100%;
+  @media @xs {
+    font-size: 90%;
+  }
+  @media @sm {
+    font-size: 90%;
+  }
+  color: #000000;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.button-grey{
+  background: @MedGray2;
+}
+
+.center{
+  text-align: center;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.global-placeholder {
+  &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-style: italic;
+    color: #cccccc;
+  }
+  &::-moz-placeholder { /* Firefox 19+ */
+    font-style: italic;
+    color: #cccccc;
+  }
+  &:-ms-input-placeholder { /* IE 10+ */
+    font-style: italic;
+    color: #cccccc;
+  }
+  &:-moz-placeholder { /* Firefox 18- */
+    font-style: italic;
+    color: #cccccc;
+  }
+  &::placeholder{
+    font-style: italic;
+    color: #cccccc;
+  }
+}
