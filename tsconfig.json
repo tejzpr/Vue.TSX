@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
+    "target": "es2015",
+    "module": "es2015",
     "strict": true,
     "strictPropertyInitialization": false,
     "jsx": "preserve",
@@ -10,7 +10,7 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "allowSyntheticDefaultImports": true,
-    "skipLibCheck": true,
+    "skipLibCheck": false,
     "sourceMap": true,
     "baseUrl": ".",
     "types": [
